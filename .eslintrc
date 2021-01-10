@@ -1,0 +1,17 @@
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "globals": {
+        "window": true,
+        "require": true
+//        "console" : true
+    },
+    "rules": {
+        "no-console": "off"
+    }
+}
