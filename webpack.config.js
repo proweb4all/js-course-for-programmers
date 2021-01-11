@@ -13,7 +13,8 @@ module.exports = {
     contentBase: './dist',
     overlay: true,
     proxy: {
-      '/js-frontend-api/**': {
+      // '/js-frontend-api/**': {
+      '/js-hw-api/**': {
         target: 'http://faceprog.ru/',
         secure: false,
         changeOrigin: true
