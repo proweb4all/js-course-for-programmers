@@ -1,1 +1,1 @@
-import './lesson5/index'
+import './lesson5/dz5/index'

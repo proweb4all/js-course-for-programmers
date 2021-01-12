@@ -14,7 +14,7 @@ module.exports = {
     overlay: true,
     proxy: {
       // '/js-frontend-api/**': {
-      '/js-hw-api/**': {
+      '/js-6-api/**': {
         target: 'http://faceprog.ru/',
         secure: false,
         changeOrigin: true
